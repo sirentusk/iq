@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;    
+}
+
+.mini {
+    color: grey;
+    font-size: calc(10px + 0.390625vw);
+}
+
+main {
+    height: 63vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0px 0px 30px 30px;
+    line-height: 30px;
+    font-family: 'PrintClearly', fantasy;
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+@font-face {
+	font-family: 'PrintClearly';
+	src: url('fonts/PrintClearly.ttf');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Macondo';
+	src: url('fonts/Macondo.ttf');
+	font-style: normal;
+}
+
+p {
+    line-height: 5;
+}
+
+p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main ul {
+    text-align: center;
+}
+
+img {
+    max-width: calc(85% + 0.390625vw);
+}
+
+div {
+    margin-bottom: 50px;
+}
+
+.columns img {
+    height: auto;
+    max-height: 225px;
+    padding: 20px 0px 20px 0px;
+}
+
+.columns {
+    columns: 290px 2;
+    column-gap: 3em;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    list-style: url("images/brain.png") inside;
+    line-height: 2;
+    padding: 20px;
+}
+
+h1 {
+    padding: 150px 0px 150px 0px;
+    line-height: 1;
+    text-align: center;
+    color: rgb(195, 108, 7);
+    font-size: 54px;
+    text-shadow: 1px 0 0 rgb(55, 19, 0), /* Outline right */
+    0 1px 0 rgb(55, 19, 0), /* Outline top */
+    -1px 0 0 rgb(55, 19, 0), /* Outline left */
+    0 -1px 0 rgb(55, 19, 0), /* Outline bottom */
+    3px 3px 1px rgb(55, 19, 0), /* Shadow right */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow top */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow left */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow bottom*/
+    4px 5px 5px rgba(16, 16, 16, 0.5), /* Shadow blur right */
+    1px 10px 10px rgba(16, 16, 16, 0.4), /* Shadow blur top */
+    1px 15px 30px rgba(16, 16, 16, 0.3), /* Shadow blur left */
+    1px 15px 30px rgba(16, 16, 16, 0.2); /* Shadow blur bottom*/
+}
+
+header {
+    background-image: url('images/sleep-top.gif');
+    width: inherit;
+    max-width: inherit;
+    text-align: center;
+    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+header a, footer a {
+    font-family: 'Macondo', fantasy;
+    color: rgb(223, 223, 223);
+    font-size: calc(18px + 0.390625vw);
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    text-shadow: 1px 0 0 rgb(55, 19, 0), /* Outline right */
+    0 1px 0 rgb(55, 19, 0), /* Outline top */
+    -1px 0 0 rgb(55, 19, 0), /* Outline left */
+    0 -1px 0 rgb(55, 19, 0), /* Outline bottom */
+    3px 3px 1px rgb(55, 19, 0), /* Shadow right */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow top */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow left */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow bottom*/
+    4px 5px 5px rgba(16, 16, 16, 0.5), /* Shadow blur right */
+    1px 10px 10px rgba(16, 16, 16, 0.4), /* Shadow blur top */
+    1px 15px 30px rgba(16, 16, 16, 0.3), /* Shadow blur left */
+    1px 15px 30px rgba(16, 16, 16, 0.2); /* Shadow blur bottom*/
+}
+
+header a:hover, footer a:hover {
+    box-shadow: 500px 0 0 rgba(255, 255, 255, 0.081) inset;
+    padding: 15px 15px 15px 15px;
+}
+
+nav {
+    padding: 15px;
+}
+
+footer img {
+    width: 150px;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    margin: 0px 5px 20px 0px;
+}
+
+footer {
+    bottom: 0;
+    background-image: url('images/sleep-bottom.gif');
+    font-family: 'Macondo', fantasy;
+    font-size: calc(18px + 0.390625vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    text-shadow: 1px 0 0 rgb(55, 19, 0), /* Outline right */
+    0 1px 0 rgb(55, 19, 0), /* Outline top */
+    -1px 0 0 rgb(55, 19, 0), /* Outline left */
+    0 -1px 0 rgb(55, 19, 0), /* Outline bottom */
+    3px 3px 1px rgb(55, 19, 0), /* Shadow right */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow top */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow left */
+    3px 3px 1px rgb(108, 75, 55), /* Shadow bottom*/
+    4px 5px 5px rgba(16, 16, 16, 0.5), /* Shadow blur right */
+    1px 10px 10px rgba(16, 16, 16, 0.4), /* Shadow blur top */
+    1px 15px 30px rgba(16, 16, 16, 0.3), /* Shadow blur left */
+    1px 15px 30px rgba(16, 16, 16, 0.2); /* Shadow blur bottom*/
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    line-height: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    scrollbar-color: rgb(213, 126, 89) 0%, rgb(108, 75, 55), rgb(55, 19, 0) 100%; /* Gecko */
+    scrollbar-width: thin; /* Gecko */
+}
+
+main::-webkit-scrollbar { /* Chromium */
+    width: 10px;
+}
+  
+main::-webkit-scrollbar-track { /* Chromium */
+    background: white;
+    box-shadow: inset 1px 1px 5px black ;
+}
+  
+main::-webkit-scrollbar-thumb { /* Chromium */
+    background: linear-gradient(0deg, rgb(213, 126, 89), rgb(108, 75, 55), rgb(55, 19, 0));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+main::-webkit-scrollbar-thumb:hover { /* Chromium */
+    background: linear-gradient(0deg, rgb(195, 108, 7), rgb(108, 75, 55),  rgb(55, 19, 0));
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main::-webkit-scrollbar-thumb:active { /* Chromium */
+    background: linear-gradient(0deg,rgb(195, 108, 7), rgb(108, 75, 55), rgb(55, 19, 0));
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 666px) {
+
+    header {
+        text-align: left;
+        word-spacing: 20px;
+        background-size: cover;
+    }
+
+    footer {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        text-indent: 25px;
+    }
+
+    .columns img {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1064px) {
+
+    .columns img {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-height: 310px;
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .columns {
+        columns: 290px 1;
+        column-gap: 3em;
+        text-align: center;
+    }
+}
